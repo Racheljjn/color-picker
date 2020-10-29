@@ -1,0 +1,31 @@
+body{
+ background-color: #D6D54E;
+ font-family: 'Roboto Slab', serif;
+
+}
+
+.container{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+}
+
+h1{
+ background-color:black;
+ color: white;
+ padding: 20px 40px;
+ border-radius: 10px;
+}
+.btn button{
+ border: 2px solid black;
+ cursor: pointer;
+ padding: 5px 20px;
+ margin: 0 10px;
+
+}
+.btn button:hover,.btn button:focus{
+ background-color:#ccc;
+}
+
